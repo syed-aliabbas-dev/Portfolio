@@ -17,6 +17,10 @@
     var formMessages = $('#form-messages');
 
     $(form).submit(function (e) {
+        if ($(form).attr('action').indexOf('formsubmit.co') !== -1) {
+            return;
+        }
+
         e.preventDefault();
 
         // Form data serialize + phone field 

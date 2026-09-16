@@ -179,7 +179,7 @@
                             </div>
                         </div>
                         <div class="banner-btn mt-70 tmp-scroll-trigger tmp-fade-in animation-order-5">
-                            <a class="tmp-btn hover-icon-reverse radius-round" href="#">
+                            <a class="tmp-btn hover-icon-reverse radius-round" href="assets/docs/pdf/Syed-Ali-Abbas-CV.pdf" download="Syed-Ali-Abbas-CV.pdf">
                                 <span class="icon-reverse-wrapper">
                                     <span class="btn-text">Download CV</span>
                                     <span class="btn-icon"><i class="fa-light fa-download"></i></span>
@@ -219,7 +219,12 @@
             <div class="row g-5">
                 <div class="col-xl-4 col-lg-6 col-md-6 tmp-scroll-trigger tmp-fade-in animation-order-2">
                     <div class="service service-style-2 invonhover" data-bs-toggle="modal"
-                        data-bs-target="#exampleModalService">
+                        data-bs-target="#exampleModalService"
+                        data-category="AI Development"
+                        data-title="AI Development"
+                        data-image="assets/images/designer/service/pen.svg"
+                        data-description="I design and build practical AI products that turn business ideas into useful experiences—covering smart workflows, automation, chat interfaces, and data-driven features."
+                        data-points="AI product strategy and workflow planning|Custom AI features and business automation|Model integration and intelligent toolchains|Data handling, prompt logic, and optimization|Scalable AI experiences for real users">
                         <div class="shape">
                             <div class="is-1">
                                 <img src="assets/images/designer/service/vector.svg" alt="">
@@ -241,7 +246,12 @@
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 tmp-scroll-trigger tmp-fade-in animation-order-2">
                     <div class="service service-style-2 invonhover" data-bs-toggle="modal"
-                        data-bs-target="#exampleModalService">
+                        data-bs-target="#exampleModalService"
+                        data-category="AI Agents"
+                        data-title="AI Agent Builder"
+                        data-image="assets/images/designer/service/light.svg"
+                        data-description="I build AI agents that connect tools, knowledge, and actions into a single workflow so tasks can be automated with more context and less manual work."
+                        data-points="Agent planning and workflow design|Tool and API integration|Context retrieval and decision logic|Human-in-the-loop review steps|Conversational automation for real use cases">
                         <div class="shape">
                             <div class="is-1">
                                 <img src="assets/images/designer/service/vector.svg" alt="">
@@ -262,7 +272,12 @@
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 tmp-scroll-trigger tmp-fade-in animation-order-4">
                     <div class="service service-style-2 invonhover" data-bs-toggle="modal"
-                        data-bs-target="#exampleModalService">
+                        data-bs-target="#exampleModalService"
+                        data-category="Web Development"
+                        data-title="Responsive Websites & Stores"
+                        data-image="assets/images/designer/service/pen.svg"
+                        data-description="I create modern, responsive websites and storefront experiences that are fast, polished, and built to convert visitors into customers."
+                        data-points="Custom website design and front-end build|WordPress and Shopify development|Landing pages and business websites|Performance, UX, and mobile-first layout|SEO-friendly structure and content delivery">
                         <div class="shape">
                             <div class="is-1">
                                 <img src="assets/images/designer/service/vector.svg" alt="">
@@ -354,16 +369,16 @@
                                 </ul>
                             </div>
                             <div class="btn-group d-flex gap-3 max-content mt-30">
-                                <a class="tmp-btn hover-icon-reverse radius-round" href="#contact">
+                                <a class="tmp-btn hover-icon-reverse radius-round" href="assets/docs/pdf/Syed-Ali-Abbas-CV.pdf" download="Syed-Ali-Abbas-CV.pdf">
                                     <span class="icon-reverse-wrapper">
-                                        <span class="btn-text">Contact Me</span>
+                                        <span class="btn-text">Download CV</span>
                                         <span class="btn-icon"><i class="fa-light fa-download"></i></span>
                                         <span class="btn-icon"><i class="fa-light fa-download"></i></span>
                                     </span>
                                 </a>
                                 <a class="tmp-btn btn-border tmp-marquee-btn hover-transform-none radius-round d-none d-sm-block"
-                                    href="#">
-                                    <span data-text="My Portfolio">My Portfolio</span>
+                                    href="#contact">
+                                    <span data-text="Contact Me">Contact Me</span>
                                 </a>
                             </div>
                         </div>
@@ -790,6 +805,15 @@
                             AI Developer and AI Full Stack Engineer building agents, automations,
                             and practical full-stack solutions.
                         </p>
+                        <div class="banner-btn mt-35 d-flex justify-content-center tmp-scroll-trigger tmp-fade-in animation-order-4">
+                            <a class="tmp-btn hover-icon-reverse radius-round" href="assets/docs/pdf/Syed-Ali-Abbas-CV.pdf" download="Syed-Ali-Abbas-CV.pdf">
+                                <span class="icon-reverse-wrapper">
+                                    <span class="btn-text">Download CV</span>
+                                    <span class="btn-icon"><i class="fa-light fa-download"></i></span>
+                                    <span class="btn-icon"><i class="fa-light fa-download"></i></span>
+                                </span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1509,7 +1533,10 @@
                             <h3 class="title fw-bold mb--25">Let's Contact</h3>
                             <p class="max-620">Send a message about your idea, product, or automation challenge.</p>
                             <div id="form-messages" class="error"></div>
-                            <form id="contact-form" method="POST" action="#" class="contact-form mt-30">
+                            <form id="contact-form" method="POST"
+                                action="https://formsubmit.co/sali51214ali@gmail.com" class="contact-form mt-30">
+                                <input type="hidden" name="_subject" value="New portfolio contact message">
+                                <input type="hidden" name="_template" value="table">
                                 <div class="row">
                                     <div class="col-lg-6 mb--35">
                                         <div class="form-group">
@@ -1637,26 +1664,26 @@
                         <div class="col-lg-12">
                             <div class="portfolio-popup-thumbnail">
                                 <div class="image">
-                                    <img class="w-100" src="assets/images/services/service-detials-popup.webp"
-                                        alt="slide">
+                                    <img class="w-100 modal-service-image" src="assets/images/services/service-detials-popup.webp"
+                                        alt="Service image">
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-lg-12">
                             <div class="text-content-pd">
-                                <span class="category">Development</span>
-                                <h3 class="mb--30">
+                                <span class="category modal-service-category">Development</span>
+                                <h3 class="mb--30 modal-service-title">
                                     Frontend & Backend Development
                                 </h3>
-                                <p class="mb--20">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo,
+                                <p class="mb--20 modal-service-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo,
                                     numquam omnis itaque officia magni nisi ullam minima, sed molestiae cum facilis
                                     ipsam voluptatum expedita esse odit vero? Porro, aliquam voluptate.</p>
 
                                 <div class="service-details-list-wrapper">
                                     <div class="single-details-method">
-                                        <h4 class="title">Proceess of metel</h4>
-                                        <ul class="single-list">
+                                        <h4 class="title">Core Highlights</h4>
+                                        <ul class="single-list modal-service-list">
                                             <li>Yet this above sewed flirted opened ouch</li>
                                             <li>Goldfinch realistic sporadic ingenuous</li>
                                             <li>Abominable this abidin far successfully then like piquan</li>
@@ -1666,17 +1693,10 @@
                                     </div>
                                 </div>
 
-                                <p>Fuga tenetur repellendus ipsam corporis dicta nesciunt similique deserunt alias
-                                    inventore tempore, pariatur odit aut, quasi delectus? Nam repellendus molestias
-                                    possimus, totam blanditiis mollitia, consequatur, rem ratione voluptatum
-                                    perspiciatis maxime nulla ut aliquid officia fugit consequuntur quia libero magnam!
-                                    Obcaecati laudantium voluptatibus itaque voluptatem omnis. Numquam eveniet voluptas
-                                    quibusdam blanditiis, quia eaque, molestiae libero.</p>
-
-                                <div class="button-group-modal-bottom  mt--40">
+                                <div class="button-group-modal-bottom mt--40">
                                     <div class="button-group service-more-btn">
-                                        <a class="tmp-btn icon-hover radius-round btn-sm" href="service-details.html">
-                                            <span class="btn-text">VIEW MORE</span>
+                                        <a class="tmp-btn icon-hover radius-round btn-sm" href="#contact">
+                                            <span class="btn-text">BOOK A PROJECT</span>
                                             <span class="btn-icon"><i class="fa-light fa-arrow-right"></i></span>
                                         </a>
                                     </div>
@@ -1919,13 +1939,44 @@
                 </nav>
             </div>
             <div class="tmp-header-hiring mt-5">
-                <a href="#contact" class="tmp-header-hiring-link w-100 text-center">Lets Talk </a>
-                <a href="#contact" class="tmp-header-hiring-link w-100 text-center">Contact Me </a>
+                <a href="assets/docs/pdf/Syed-Ali-Abbas-CV.pdf" download="Syed-Ali-Abbas-CV.pdf" class="tmp-header-hiring-link w-100 text-center">Download CV</a>
+                <a href="#contact" class="tmp-header-hiring-link w-100 text-center">Contact Me</a>
             </div>
         </div>
     </div>
     <!-- offcanvase end -->
     <!-- All Scripts  -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const modal = document.getElementById('exampleModalService');
+            if (!modal) return;
+
+            const titleEl = modal.querySelector('.modal-service-title');
+            const categoryEl = modal.querySelector('.modal-service-category');
+            const descEl = modal.querySelector('.modal-service-description');
+            const listEl = modal.querySelector('.modal-service-list');
+            const imageEl = modal.querySelector('.modal-service-image');
+
+            document.querySelectorAll('.service.service-style-2').forEach((card) => {
+                card.addEventListener('click', function () {
+                    const category = card.dataset.category || 'Development';
+                    const title = card.dataset.title || 'Service';
+                    const description = card.dataset.description || 'Custom digital solutions built for practical results.';
+                    const points = (card.dataset.points || '').split('|').filter(Boolean);
+                    const image = card.dataset.image || 'assets/images/services/service-detials-popup.webp';
+
+                    if (categoryEl) categoryEl.textContent = category;
+                    if (titleEl) titleEl.textContent = title;
+                    if (descEl) descEl.textContent = description;
+                    if (imageEl) imageEl.src = image;
+
+                    if (listEl) {
+                        listEl.innerHTML = points.map(item => `<li>${item}</li>`).join('');
+                    }
+                });
+            });
+        });
+    </script>
 
     <div class="tmp-progress-parent">
         <svg class="tmp-back-circle svg-inner" width="100%" height="100%" viewBox="-1 -1 102 102">
